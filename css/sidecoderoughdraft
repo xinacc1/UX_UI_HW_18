@@ -1,0 +1,256 @@
+ CSS
+ #skillsGrid {
+    display: grid;
+    grid-template-rows: 410px 400px 410px 400px;
+    grid-template-columns: 408px 408px 408px;
+    margin: 90px 258px 0px 249px;
+    column-gap: 8px;
+    grid-template-areas:
+    "first-skill-image second-skill-image third-skill-image"
+    "fourth-skill-text fifth-skill-text sixth-skill-text"
+    "seventh-skill-image eighth-skill-image ninth-skill-image"
+    "tenth-skill-text eleventh-skill-text twelfth-skill-text"
+  }
+
+  #first-skill-image {
+    grid-area: "first-skill-image";
+    background-image: url("../images/skill-card-1.svg");
+    margin-top: 8px;
+    border: 1px solid #3A3A3A;
+  }
+  
+  #second-skill-image {
+    grid-area: "second-skill-image";
+    background-image: url("../images/skill-card-2.svg");
+    margin-top: 8px;
+    border: 1px solid #3A3A3A;
+  }
+  
+  #third-skill-image {
+    grid-area: "third-skill-image";
+    background-image: url("../images/skill-card-3.svg");
+    margin-top: 8px;
+    border: 1px solid #3A3A3A;
+  } 
+
+  #fourth-skill-text {
+    grid-area: "fourth-skill-text";
+    background-color: #EFEFEF;
+  } 
+
+  #fifth-skill-text {
+    grid-area: "fifth-skill-text";
+    background-color: #EFEFEF;
+  } 
+
+  #sixth-skill-text {
+    grid-area: "sixth-skill-text";
+    background-color: #EFEFEF;
+  } 
+   
+  #seventh-skill-image {
+    grid-area: "seventh-skill-image";
+    background-image: url("../images/skill-card-7.svg");
+    margin-top: 8px;
+    border: 1px solid #3A3A3A;
+  }
+  
+  #eighth-skill-image {
+    grid-area: "eighth-skill-image";
+    background-image: url("../images/skill-card-8.svg");
+    margin-top: 8px;
+    border: 1px solid #3A3A3A;
+  }
+  
+  #ninth-skill-image {
+    grid-area: "ninth-skill-image";
+    background-image: url("../images/skill-card-9.svg");
+    margin-top: 8px;
+    border: 1px solid #3A3A3A;
+  } 
+
+  #tenth-skill-text {
+    grid-area: "tenth-skill-text";
+    background-color: #EFEFEF;
+  } 
+
+  #eleventh-skill-text {
+    grid-area: "eleventh-skill-text";
+    background-color: #EFEFEF;
+  } 
+
+  #twelfth-skill-text {
+    grid-area: "twelfth-skill-text";
+    background-color: #EFEFEF;
+  } 
+
+   
+  .skill-grid-area {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  } 
+
+
+
+  
+  .resume {
+    width: 1254px;
+    height: 80px;
+    margin-left: 249px;
+    margin-right: 412px;
+    margin-top: 24px;
+  } 
+   
+  .resume-box {
+    margin: 12px 0px;
+  }
+
+  #sideGrid2 {
+    display: grid;
+    grid-template-rows: 86px 86px 86px;
+    grid-template-columns: 86px 525px 86px 525px;
+    margin-top: 24px;
+    margin: 740px 259px 0px 249px;
+    row-gap: 8px;
+    grid-template-areas:
+    "firsticon2 secondtext2 thirdicon2 fourthtext2"
+    "fifthicon2 sixthtext2 seventhicon2 eighthtext2"
+    "ninthicon2 tenthtext2"
+  }
+
+  #firsticon2 {
+    grid-area: "firsticon2";
+    width: 85px;
+    height: 85px;
+    border-radius: 10%;
+  }
+  
+  #secondtext2 {
+    grid-area: "secondtext2";
+    padding-top: 30px;
+    padding-left: 30px;
+  }
+  
+  #thirdicon2 {
+    grid-area: "thirdicon2";
+    width: 85px;
+    height: 85px;
+    border-radius: 10%;
+  } 
+
+  #fourthtext2 {
+    grid-area: "fourthtext2";
+    padding-top: 30px;
+    padding-left: 30px;
+  } 
+
+  #fifthicon2 {
+    grid-area: "fifthicon2";
+    width: 85px;
+    height: 85px;
+    border-radius: 10%;
+  } 
+
+  #sixthtext2 {
+    grid-area: "sixthtext2";
+    padding-top: 30px;
+    padding-left: 30px;
+  } 
+
+  #seventhicon2 {
+    grid-area: "seventhicon2";
+    width: 85px;
+    height: 85px;
+    border-radius: 10%;
+  } 
+
+  #eighthtext2 {
+    grid-area: "eighthtext2";
+    padding-top: 30px;
+    padding-left: 30px;
+  } 
+
+  #ninthicon2 {
+    grid-area: "ninthicon2";
+    width: 85px;
+    height: 85px;
+    border-radius: 10%;
+  } 
+
+  #tenthtext2 {
+    grid-area: "tenthtext2";
+    padding-top: 30px;
+    padding-left: 30px;
+  } 
+
+  .sideGridArea2 {
+    align-items: center;
+    display: flex;
+    position: relative;
+    margin: 8px;
+  }
+  
+
+
+
+HTML
+
+ <section id="skillsGrid">
+        <div id="first-skill-image" class="skill-grid-area"></div>
+        <div id="second-skill-image" class="skill-grid-area"></div>
+        <div id="third-skill-image" class="skill-grid-area"></div>
+
+        <div id="fourth-skill-text" class="skill-grid-area">
+            <div><h2>User Research</h2></div>
+            <p>Studying target users and 
+                their requirements, to add 
+                realistic contexts and 
+                insights to design 
+                processes. I adopt various 
+                methods to uncover 
+                problems and design 
+                opportunities.</p>
+        </div>
+        <div id="fifth-skill-text" class="skill-grid-area">
+            <h2>UI Design</h2> <br>
+            <p>Designing interfaces in software or computerised devices, 
+                focusing on looks or style. I aim to create interfaces which 
+                users find easy to use and pleasurable based on user research.</p>
+        </div>
+        <div id="sixth-skill-text" class="skill-grid-area">
+            <h2>Prototyping</h2> <br>
+            <p>Building low-fidelity and high-fidelity prototypes 
+                to implement ideas in tangible forms from paper to digital 
+                to capture design concepts and test on users.</p>
+        </div>
+
+        <div id="seventh-skill-image" class="skill-grid-area"></div>
+        <div id="eighth-skill-image" class="skill-grid-area"></div>
+        <div id="ninth-skill-image" class="skill-grid-area"></div>
+
+        <div id="tenth-skill-text" class="skill-grid-area">
+            <h2>Responsive Web Design</h2> <br>
+            <p>Conceptualising websites from 
+                an atomic design structure 
+                starting with a mobile-first 
+                approach. I design for all 
+                viewport sizes to allow more 
+                accessibility for users.</p>
+        </div>
+        <div id="eleventh-skill-text" class="skill-grid-area">
+            <h2>Mobile Design & App</h2> <br>
+            <p>Approaching UX and UI design on mobile devices, 
+                with a keen interest. I design for both mobile apps 
+                and websites as more and more users today are accessing 
+                the web through mobile.</p>
+        </div>
+        <div id="twelfth-skill-text" class="skill-grid-area">
+            <h2>Storytelling</h2> <br>
+            <p>Capturing audience through storytelling is key 
+                to a UX UI design that stands out in the crowd. 
+                Storytelling speaks to the essence of the product 
+                and makes it memorable for users.</p>
+        </div>
+    </section>
+     
