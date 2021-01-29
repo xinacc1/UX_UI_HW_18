@@ -253,4 +253,91 @@ HTML
                 and makes it memorable for users.</p>
         </div>
     </section>
-     
+      
+       
+       BIO HTML
+          <section id="bioGrid">
+        <div id="bioPhoto" class="bioGridArea">
+
+        </div>
+
+        <div id="bioLogo" class="bioGridArea">
+            <img src="images/logo.svg" alt="signature logo" width= "80%" height="80%">
+        </div>
+
+        <div id="bioInfo" class="bioGridArea">
+            <div class="skills-spacing"><h3>UX UI Designer</h3></div>
+            <div><p>I enjoy designing mobile apps and
+                responsive website design.
+                I specialise in visual design and 
+                user experience. I have a strong 
+                entrepreneurial working with 
+                small and medium businesses.</p></div>
+        </div>
+
+        <div id="bioButtons" class="bioGridArea">
+            <span>
+                <img src="images/linkedin.svg" alt="linkedin icon">
+            </span>
+            <span>
+                <img src="images/behance.svg" alt="behance icon">
+            </span>
+        </div>
+
+        <div id="bioCapabilities" class="bioGridArea">
+            <div class="skills-spacing">
+                <h4>CAPABILITIES</h4>
+            </div>
+                <p>User Research</p>
+                <p>UI Design</p>
+                <p>Interaction Design</p>
+                <p>Copywriting</p>
+                <p>Storytelling</p>
+                <p>Paper Prototyping</p>
+                <p>Wireframing
+                <p>Brand Style Guides</p>
+                <p>Responsive Web Design</p>
+                <p>App Design</p>
+            </div>
+        </div>
+
+        <div id="bioSkills" class="bioGridArea">
+            <div class="skills-spacing">
+                <h4>SKILLS</h4>
+            </div>
+
+            <div id="sideGrid">
+                <div id="firsticon" class="ln middle">
+                    <img src="images/adobe.svg" alt="adobe icon">
+                </div>
+                <div id="secondtext">
+                     <p>Adobe XD</p>
+                </div>
+                <div id="thirdicon" class="ln middle">
+                    <img src="images/figma.svg" alt="figma icon">
+                </div>
+                <div id="fourthtext">
+                    <p>Figma</p>
+                </div>
+                <div id="fifthicon" class="ln middle">
+                    <img src="images/htmlcss.svg" alt="htmlcss icon">
+                </div>
+                <div id="sixthtext">
+                    <p>HTML & CSS</p>
+                </div>
+                <div id="seventhicon" class="ln middle">
+                    <img src="images/photoshop.svg" alt="photoshop icon">
+                </div>
+                <div id="eighthtext">
+                    <p>Photoshop</p>
+                </div>
+                <div id="ninthicon" class="ln middle">
+                    <img src="images/githubsvg.svg" alt="github icon">
+                </div>
+                <div id="tenthtext">
+                    <p>Github</p>
+                </div>
+            </div>
+        </div>
+        
+    </section>
