@@ -38,7 +38,7 @@ nav {
 
 .nav-push-left {
   height: 84px;
-  width: 220px;
+  width: 222px;
 }
 
 .button-nav {
@@ -197,12 +197,23 @@ footer {
   background-color: white;
 } 
 
+.footer-push-left {
+  height: 120px;
+  width: 400px
+}
+
+.f-button-nav {
+  height: 12px;
+  margin: 40px 4px;
+  padding: 12px 12px;
+}
+
 .abso-left {
   position: absolute;
   top: 93px;
   left: 252px;
   width: 400px;
-  height: 1600px;
+  height: 1550px;
 }
 
 
@@ -759,6 +770,11 @@ footer {
     height: 0px;
   }
 
+  .footer-push-left {
+    height: 120px;
+    width: 100px
+  }
+
 }
 
 @media only screen and (max-width: 600px) {
@@ -793,5 +809,27 @@ footer {
   .work-bottom-space {
     height: 500px;
   }
+
+  footer {
+    position: fixed;
+    display: flex;
+    bottom: 0;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    background-color: white;
+  } 
+
+  .footer-push-left {
+    height: 0px;
+    width: 0px
+  }
+
+  .f-button-nav {
+    height: 12px;
+    margin: 100px 4px 20px 4px;
+    padding: 12px 12px;
+  }
+
 
 }

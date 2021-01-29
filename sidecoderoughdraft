@@ -341,3 +341,31 @@ HTML
         </div>
         
     </section>
+
+    Footer CSS
+    nav {
+  display: flex;
+  height: 84px;
+  width: 100%;
+} 
+
+.nav-push-left {
+  height: 84px;
+  width: 220px;
+}
+
+.button-nav {
+  margin: 8px;
+  padding: 0px 18px;
+} 
+
+.home-button {
+  font-weight: 600;
+}
+
+.to-right {
+  display: flex;
+  flex-grow: 1;
+  justify-content: flex-end;
+  margin: 8px;
+} 
