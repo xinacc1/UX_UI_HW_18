@@ -764,6 +764,17 @@ footer {
     font-weight: 300px; 
     font-size: 16px;
   }
+   
+  .resume {
+    width: 850px;
+    margin-left: 44px;
+    margin-right: 44px;
+  }
+
+  #sideGrid2 {
+    grid-template-columns: 86px 450px 86px 450px;
+    margin: 800px 44px 0px 44px;
+  }
 
 }
 
@@ -781,52 +792,45 @@ footer {
     margin-left: 0px;
   }
 
-  #workGrid {
-    grid-template-rows: 560px 600px 560px 600px 560px 600px;
-    grid-template-columns: 1fr;
+  #skillsGrid {
+    display: grid;
+    grid-template-rows: 205px 500px 205px 500px;
+    grid-template-columns: 140px 140px 140px;
     margin: 90px 20px 0px 20px;
+    column-gap: 8px;
     grid-template-areas:
-      "first-tile"
-      "second-text"
-      "third-tile"
-      "fourth-text"
-      "fifth-tile"
-      "sixth-text"
-    ;
+    "first-skill-image second-skill-image third-skill-image"
+    "fourth-skill-text fifth-skill-text sixth-skill-text"
+    "seventh-skill-image eighth-skill-image ninth-skill-image"
+    "tenth-skill-text eleventh-skill-text twelfth-skill-text"
   }
-
-  #second-text {
-    grid-area: "second-text";
-    background-color: #EFEFEF;
-    padding-top: 44px;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-
-  #fourth-text {
-    grid-area: "fourth-text";
-    background-color: #EFEFEF;
-    padding-top: 44px;
-    padding-left: 20px;
-    padding-right: 20px;
-  } 
-
-  #sixth-text {
-    grid-area: "sixth-text";
-    background-color: #EFEFEF;
-    padding-top: 44px;
-    padding-left: 20px;
-    padding-right: 20px;
-  } 
 
   h2 {
-    font-weight: 600px; 
-    font-size: 30px;
+    font-weight: 400px; 
+    font-size: 16px;
   }
 
   h4 {
     font-weight: 300px; 
-    font-size: 24px;
+    font-size: 16px;
+  }
+
+  .resume {
+    width: 400px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  #sideGrid2 {
+    grid-template-rows: 86px 86px 86px 86px 86px;
+    grid-template-columns: 86px 450px;
+    margin: 1150px 20px 0px 20px;
+    grid-template-areas:
+    "firsticon2 secondtext2"
+    "thirdicon2 fourthtext2"
+    "fifthicon2 sixthtext2" 
+    "seventhicon2 eighthtext2"
+    "ninthicon2 tenthtext2"
   }
 
 }
